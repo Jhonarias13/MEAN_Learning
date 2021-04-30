@@ -1,0 +1,27 @@
+### 
+GET http://localhost:4000/api/employees
+
+### 
+POST http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Jhon Freiman",
+    "position": "Senior Developer",
+    "office": "Rome",
+    "salary": "2200"
+}
+
+###
+GET http://localhost:4000/api/employees/6088a8c4398e8d7c8405bddf
+
+###
+DELETE http://localhost:4000/api/employees/6088a8c4398e8d7c8405bddf
+
+### 
+PUT http://localhost:4000/api/employees/6088a8c4398e8d7c8405bddf
+Content-Type: application/json
+
+{
+    "salary": 10000
+}
